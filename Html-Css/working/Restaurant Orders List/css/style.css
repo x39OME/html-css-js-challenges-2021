@@ -1,0 +1,233 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    width: 1070px;
+    margin: 20px auto;
+}
+body{
+    background-color: #EEEFF1;
+}
+
+/* End Our Freamwork */
+
+.restaurant {
+    background-color: #FFF;
+    width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.menu .title .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .title .titleone{
+    font-weight: 600;
+    font-size: 18px;
+}
+.menu .title .icon{
+    color: #C8C8C8;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 56px;
+}
+form .input{
+    display: flex;
+    justify-content:start;
+}
+form .input input::placeholder{
+    font-style: italic;
+}
+form .input input{
+    margin-right: 20px;
+    background-color: #F0F1F3;
+    border: none;
+}
+form .input input[name="search"]{
+    padding: 9px 0 9px 15px;
+    width: 150px;
+}
+form .input input[name="search-title"]{
+    padding: 9px 0 9px 15px;
+    width: 400px;
+}
+form .input input[name="search-phone"]{
+    padding: 9px 0 9px 15px;
+    width: 280px;
+}
+form .input button{
+    border: none;
+    padding: 8px 0;
+    width: 120px;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to right, #4D339E , #7423A0);
+    border-radius: 2px;
+}
+
+.title .nav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    position: relative;
+}
+
+.title .nav::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color:#E5E5E5;
+    position: absolute;
+    bottom: -20px;
+}
+.title .nav .input input[type="radio"] {
+    -webkit-appearance: none; /* Hidden input */
+    appearance: none;
+}
+.title .nav .input {
+    position: relative;
+}
+.title .nav .input span{
+    margin-left: 30px;
+}
+.title .nav .input::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 2px solid #E5E5E5;
+    border-radius: 2PX;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+}
+
+
+/**/
+.dishes .dish{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 31px;
+}
+.dishes .dish::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #E5E5E5;
+    position: absolute;
+    bottom: -10px;
+}
+.dishes .dish .input input[type="radio"] {
+    -webkit-appearance: none; /* Hidden input */
+    appearance: none;
+}
+.dishes .dish .input {
+    position: relative;
+}
+.dishes .dish .input::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 2px solid #E5E5E5;
+    border-radius: 2PX;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    transform: translateY(-50%);
+    background: white;
+}
+.dishes .dish .input span{
+    margin-left: 30px;
+}
+.dishes .dish div{
+    align-self: center;
+}
+
+.dishes .dish div.quantity input{
+    width: 40px;
+    border: 2px solid #E5E5E5;
+    border-radius: 2px;
+}
+.dishes .dish div.icon{
+    color:#C8C8C8
+}
+.dishes .dish div .button-green{
+    padding: 5px ;
+    background-color: #2CE5C0;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+}
+.dishes .dish div .button-yellow{
+    padding: 5px 15px; ;
+    background-color: #FFB74D;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+.footer .pages{
+    display: flex;
+    justify-content: space-between;
+    color: #878787;
+}
+.footer .pages .number-page{
+    display: flex;
+    margin-top: 11px;
+}
+.footer .pages .number-page ul{
+    display: flex;
+    list-style: none;
+    transition: .5s;
+
+}
+.footer .pages .number-page .num{
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    margin: 0px 3px;
+    background-color: #fff;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    transition: .5s;
+
+}
+.footer .pages .number-page .num:hover{
+    background-image: linear-gradient(to right, #4D339E , #7423A0);
+    border-image: linear-gradient(to right, #4D339E , #7423A0);
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    transition: .5s;
+
+}
+.num.active{
+    color: #FFF !important;
+    border: 2px solid #4D339E !important;
+    border-radius: 4px;
+    border-image: linear-gradient(to right, #4D339E , #7423A0);
+    background-image: linear-gradient(to right, #4D339E , #7423A0);
+}
+.next{
+    line-height: 30px;
+    margin-left: 10px;
+}
+.pre{
+    line-height: 30px;
+    margin-right: 10px;
+}
