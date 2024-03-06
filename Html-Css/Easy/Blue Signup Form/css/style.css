@@ -1,0 +1,102 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+body{
+    background-color: #2196F3;
+}
+
+/* End Our Freamwork */
+
+.sing .container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sing .input{
+    text-align: center;
+    background-color: #fff;
+    width: 350px;
+    height: 530px;
+    border-radius: 5px;
+    margin-top: 60px;
+    position: relative;
+}
+.sing .input label{
+    display: block;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.sing .input input{
+    border: none;
+    border-bottom: 1px solid #CCCBD1;
+    padding: 5px 10px 5px 30px;
+    margin-bottom: 20px;
+}
+.sing .input .icon-input {
+    color: #999;
+    margin-top: 8px;
+    position: absolute;
+    left: 60px;
+}
+.sing .input button{
+    padding: 10px 115px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #FFF;
+    font-weight: 600;
+}
+.sing .input p{
+    color: #999;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.sing .input p::after{
+    content: '';
+    width: 260px;
+    border-bottom: 2px dotted #999;
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}
+.sing .input p a{
+    color: #2196F3;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sing .input p a:hover{
+    text-decoration: line-through;
+}
+
+.sing .input div{
+    font-weight: 600;
+    color: #777;
+    margin-top: 25px;
+}
+.sing .input .icon i{
+    margin-bottom: 10px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #CCC;
+    color: #fff;
+    border-radius: 50%;
+}
+.sing .input .icon i:first-child{
+    background-color: #1DA1F2;
+}
+.sing .input .icon i:nth-child(2){
+    background-color: #DB4437;
+}
+.sing .input .icon i:nth-child(3){
+    background-color: #3B5998;
+}

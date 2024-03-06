@@ -1,0 +1,135 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+body{
+    background-color: #fff;
+}
+
+/* End Our Freamwork */
+
+.logo{
+    background-color: #2ECA7F;
+    color: #FFF;
+    padding: 10px;
+}
+.logo .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo .icon{
+    display: flex;
+}
+.logo .icon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.logo .icon h1{
+    margin-left: 20px;
+}
+.logo .icon p{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.logo .social i{
+    background-color: #FFF;
+    color: #2ECA7F;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.logo .social p{
+    font-weight: 600;
+}
+/*info*/
+
+.info{
+    margin-top: 25px;
+}
+.info .container{
+    display: flex;
+    justify-content: space-between;
+}
+.info .list{
+    padding: 10px 0;
+}
+.info .list ul{
+    list-style: none;
+    color: #343A40;
+    
+}
+.info .list ul li{
+    margin-bottom: 30px ;
+    position: relative;
+    
+}
+.info .list ul li:hover{
+    color: #2ECA7F;
+}
+.info .list ul li::before:hover{
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    top: 6px;
+    left: -35px;
+    border-bottom: 2px solid #2ECA7F;
+}
+.info .who{
+    color: #343A40;
+}
+.info .who h3{
+    position: relative;
+    margin-bottom: 25px;
+}
+.info .who h3::after{
+    content: '';
+    display: flex;
+    width: 94px;
+    height: 5px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-bottom: 2px solid #2ECA7F;
+}
+.info .who h3::before{
+    content: '';
+    display: flex;
+    width: 35px;
+    position: absolute;
+    top: 26px;
+    border: 5px solid #2ECA7F;
+    border-radius: 8px;
+}
+
+.info .who button{
+    background-color: #2ECA7F;
+    color: #FFF;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 1px solid #2ECA7F;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.info .who button i {
+    background-color: #fff;
+    color: #2ECA7F;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    line-height: 30px;
+
+}
