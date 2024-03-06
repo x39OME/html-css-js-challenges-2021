@@ -1,0 +1,142 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+body{
+    background-color: #fff;
+}
+
+/* End Our Freamwork */
+
+.footer{
+    background-color: #333333;
+    color: #fff;
+    padding: 30px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .contact-us address{
+    display: flex;
+}
+.footer .container .contact-us h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer .contact-us p{
+    color: #898989;
+}
+.footer .container .contact-us .addres p{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #898989;
+}
+.footer .contact-us address .addres{
+    width: 200px;
+}
+.footer .container .contact-us address span{
+    margin-right: 50px;
+}
+
+.information{
+    margin-left: 10px;
+    padding-left: 40px;
+}
+.information p{
+    font-size: 20px;
+}
+.information ul{
+    padding: 0 ;
+    width: 145px;
+}
+.information ul li{
+    list-style: none;
+    color: #898989;
+    margin-top: 12px;
+}
+
+.account{
+    margin-left: 45px;
+}
+.account p{
+    font-size: 20px;
+    width: 110px;
+}
+.account ul{
+    padding: 0 ;
+}
+.account ul li{
+    list-style: none;
+    color: #898989;
+    margin-top: 12px;
+}
+
+
+.newsletter{
+    margin-left: 50px;
+}
+.newsletter h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+.newsletter p{
+    color: #898989;
+}
+.newsletter input{
+    background-color: #4C4C4C;
+    border: none;
+    padding: 8px 15px;
+}
+.newsletter button{
+    background-color: #E52727;
+    border: none;
+    padding: 8px 15px;
+}
+.newsletter i{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.newsletter .icon i:first-child{
+    background-color: #3C5A99;
+}
+.newsletter .icon i:nth-child(2){
+    background-color: #00A2E8;
+}
+.newsletter .icon i:nth-child(3){
+    background-color: #E32E2E;
+}
+.newsletter .icon i:nth-child(4){
+    background-color: #815DC7;
+}
+.newsletter .icon i:nth-child(5){
+    background-color: #db4a39;
+}
+.footer-two{
+    background-color: #2B2B2B;
+    color: #FFF;
+    padding: 20px aut;
+}
+
+.footer-two .container {
+    display: flex;
+    justify-content: space-around;
+    padding:25px
+}
+.footer-two .end div span{
+    color: #898989;
+}
+.footer-two .price{
+    font-size: 20px;
+    margin-left: 5px;
+}

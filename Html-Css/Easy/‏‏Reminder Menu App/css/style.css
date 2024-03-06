@@ -1,0 +1,130 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+body{
+    background-color: #F1EEF5;
+}
+
+/* End Our Freamwork */
+
+.logo .info{
+    display: flex;
+    justify-content:center;
+}
+.logo .edit{
+    margin-top: 20px;
+    display: flex;
+    order: 2;
+}
+.logo .edit a{
+    color: #87C3F0;
+    text-decoration: none;
+    font-size: 20px;
+    height: 35px;
+    margin-left: -30px;
+}
+.logo .input input {
+    width: 425px;
+    padding: 10px 5px;
+    padding-left: 30px;
+    background-color: #E2E0E7;
+    border: 1px solid #E2E0E7;
+    border-radius: 10px;
+
+}
+.logo .input{
+    margin-top: 60px;
+    position: relative;
+}
+.logo .input i {
+    position: absolute;
+    top: 14px;
+    left: 9px;
+}
+
+.boxes .container{
+    display: flex;
+    justify-content: center;
+}
+.boxes .box{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px 10px;
+    padding: 5px 5px 10px;
+}
+.boxes .box i{
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #2B74FD;
+    color: #FFF;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.boxes .box .ic1{
+    background-color: #2B74FD;
+}
+.boxes .box .ic2{
+    background-color: #F79409;
+}
+.boxes .box .ic3{
+    background-color: #5B626B;
+}
+.boxes .box .ic4{
+    background-color: #F74C31;
+}
+.boxes .box p{
+    color: #B1B2B4;
+    margin-left: 10px;
+}
+.boxes .box span{
+    margin-left: 120px;
+}
+
+
+.list .one{
+    display: flex;
+    justify-content:space-between;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    width: 430px;
+    border-radius: 5px;
+}
+.list .border{
+    position: relative;
+}
+.list .border::before{
+    content: '';
+    width: 365px;
+    height: 1px;
+    position: absolute;
+    background-color: #D4D4D4;
+    top: 70px;
+    right: 0px;
+}
+.list .one div .fa-bars{
+    color: #FFF;
+    background-color: #39B651;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+.list .one div .fa-chevron-right{
+    color: #D4D4D4;
+    margin-left: 5px;
+}
+.list .one div .yellow{
+    background-color: #FAC800;
+}

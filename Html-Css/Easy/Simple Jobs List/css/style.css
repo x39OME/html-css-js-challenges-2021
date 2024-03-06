@@ -1,0 +1,140 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1100px;
+}
+body{
+    background-color: #F3F6F9;
+}
+
+/* End Our Freamwork */
+
+.heading .title{
+    margin: 50px auto;
+    text-align: center;
+}
+.heading .title h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    position: relative;
+}
+.heading .title h1::after{
+    content: '';
+    width: 80px;
+    height: 3px;
+    background-color: #2980B9;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.heading .title p{
+    color:gray
+}
+
+.feat{
+    background-color: #FFF;
+    padding: 8px 35px;
+    font-weight: bold;
+    border-top: 3px solid #2980B9;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 40px;
+    top: 282px;
+}
+.item .box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 15px 10px;
+    margin: 3px;
+    position: relative;
+}
+.item .box img{
+    margin: 20px;
+}
+.item .box .text{
+    margin-left: -150px;
+    margin-top: 15px;
+}
+.item .box .text .green{
+    padding: 0px 10px;
+    color: #FFF;
+    background-color: #7FB13D;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.item .box .text .blue{
+    padding: 0px 10px;
+    color: #FFF;
+    background-color: #2980B9;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.item .box .text .purple{
+    padding: 0px 10px;
+    color: #FFF;
+    background-color: #8E44AD;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.item .box .text span{
+    color: gray;
+}
+.item .box .city {
+    margin-top: 25px;
+}
+.item .box .city p:first-child{
+    font-size: 21px;
+    font-weight: 300;
+}
+.item .box .city p:nth-child(2){
+    color: gray;
+    margin-top: -20px;
+}
+.item .box .price p{
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: -30px;
+    text-align: center;
+}
+
+.item .box .price button{
+    background-color: #2980B9;
+    padding: 2px 25px;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 35px;
+}
+
+
+.button .btn{
+    margin: 50px auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.button .btn button{
+    padding: 10px 40px;
+    background-color: #2980B9;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: .2s;
+}
+.button .btn button:hover{
+    color: #2980B9;
+    background-color: #FFF;
+    border: 1px solid #2980B9;
+}

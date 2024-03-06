@@ -1,0 +1,148 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 30px auto;
+}
+body{
+    background-color: #fff;
+}
+.header{
+    background-image: url(../why-play-is-important.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    position: relative;
+    height: 200px;
+    width: 800px;
+    margin: 20px auto;
+}
+.header .overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(237, 76, 33, .7)
+}
+.resp .title{
+    display: flex;
+    justify-content:center;
+}
+
+.resp .title-list{
+    background-color: #122333;
+    border-radius: 5px;
+    color: #FFF;
+    height: 338px;
+    width: 230px;
+    margin-top: -175px;
+    z-index: 1;
+}
+.resp .title-list h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+.resp .title-list h2::after{
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #ED4C21;
+    position: absolute;
+    left: 3px;
+    bottom: -10px;
+}
+
+.resp .title-list ul{
+    list-style: none;
+    margin-left: -15px;
+}
+
+.resp .title-list ul li i{
+    color: #6B9A3B;
+}
+.resp .title-list button{
+    padding: 5px 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: #ED4C21;
+    border:none;
+    border-radius: 2px;
+}
+.resp .text {
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.resp .text p{
+    padding:35px;
+    border: 2px solid #ED4C21;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.items .boxes{
+    display: flex;
+    justify-content:center;
+}
+.items .boxes .box{
+    background-color: #F2F8FA;
+    padding: 20px 30px;
+    margin-right: 40px;
+    margin-left: 25px;
+}
+.items .boxes .box .number{
+    font-size: 20px;
+    color: #ED4C21;
+    font-weight: bold;
+    margin: 0;
+}
+.items .boxes .box h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.items .boxes .box .orang{
+    color: #ED4C21;
+}
+
+.art{
+    height: 300px;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.art .article{
+    display: flex;
+    justify-content: center;
+    background-color: #25323B;
+    color: #FFF;
+}
+.art .article .build img{
+    margin-left: 100px;
+}
+.art .article .build h4{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+}
+.art .article .build h4::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #ED4C21;
+    position: absolute;
+    left: 3px;
+    bottom: -10px;
+}
+.art .article .build .btn{
+    padding:10px 20px;
+    margin-top: 20px;
+    background-color: #ED4C21;
+    color: #fff;
+    border:none;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
