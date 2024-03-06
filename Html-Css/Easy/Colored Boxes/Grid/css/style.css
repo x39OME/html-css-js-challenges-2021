@@ -1,0 +1,66 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+/* End Our Freamwork */
+
+.box .container{
+
+    text-align: center;
+    width: 700px;
+    height: 350px;
+    background-color: #CCC;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows:repeat(4, auto) ;
+}
+.box span{
+    color:#fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box span:first-child{
+    background-color: #1ABC9C;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.box span:nth-child(2){
+    background-color:#E67E22;
+    grid-column: 3/5;
+}
+.box span:nth-child(3){
+    background-color:#27AE60;
+    grid-column: 3/5;
+}
+.box span:nth-child(4){
+    background-color:#F39C12;
+    grid-column: 5;
+    grid-row: 1/3;
+}
+.box span:nth-child(5){
+    background-color:#3498DB;
+    grid-column: 1/4;
+}
+.box span:nth-child(6){
+    background-color:#8E44AD;
+}
+.box span:nth-child(7){
+    background-color:#2C3E50;
+    grid-row: 4;
+    grid-column: 1/5;
+}
+
+.box span:nth-child(8){
+    background-color:#C0392B;
+    grid-row: 3/5;
+}

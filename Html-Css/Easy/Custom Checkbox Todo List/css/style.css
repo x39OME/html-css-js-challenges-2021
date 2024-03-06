@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Tahoma;
+}
+form {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #ccc;
+    padding: 15px;
+}
+form .text{
+    color: #FFF;
+    background-color: #009688;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: -25px;
+    text-align: center;
+    position: relative;
+}
+form .text::after{
+    content: '';
+    border: 8px solid #009688;
+    border-color: transparent transparent transparent #0A7369;
+    position: absolute;
+    top: 29px;
+    left: 3px;
+    transform: rotate(-45deg);
+}
+form > div {
+    padding: 15px 0;
+    background-color:#F9F9F9;
+    margin:20px 0
+}
+form input[type="radio"] {
+    -webkit-appearance: none; /* اخاف الانبوت ريديو*/
+    appearance: none;
+}
+form label {
+    position: relative;
+    padding-left: 25px;
+}
+
+form label::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    border: 1px solid #009688;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+}
+
+form input[type="radio"]:checked + label::after,
+form input[type="radio"]:not(:checked):hover + label::after {
+    content: "";
+    background-color: #009688;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+form input[type="radio"]:not(:checked):hover + label::after {
+    opacity: 0.2;
+}
+form input[type="radio"]:checked + label {
+    color: #000;
+    text-decoration: line-through;
+}
