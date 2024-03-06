@@ -1,0 +1,16 @@
+body{text-align: center;background-color: #CCC}
+.background{
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient(90deg, #fff 50%, #343A40 50%);
+    position: relative;
+    bottom: -50px;
+    right: -185px}
+.background img{position: absolute;top:65px;right: 335px}
+div::before{
+    content:'';
+    display: block;
+    box-sizing: border-box;
+    height: 100%;
+    border: 20px solid transparent;
+    border-image: linear-gradient(90deg, #343A40 50%, #FFF 50%)1}

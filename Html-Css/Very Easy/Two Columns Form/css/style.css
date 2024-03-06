@@ -1,0 +1,53 @@
+
+/* Freamwork */
+body{
+    background-color: #F6f6f6;
+}
+.container{
+    width: 1170px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+}
+span{
+    color: #f00;
+}
+form{
+    display: flex;
+}
+form .one{
+    margin-right: 40px;
+}
+form div input{
+    background-color: #FFF;
+    border:none;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 1px solid #CDCDCD;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+button{
+    width:690px;
+    background-color: #009688;
+    color:#FFF !important;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+textarea{
+    width: 315px;
+    height: 135px;
+    border: none;
+    border-bottom: 1px solid #CDCDCD;
+    margin-bottom: 10px;
+
+}
