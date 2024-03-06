@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E7F3FB;
+}
+
+.container{
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.container .boxes{
+    display: flex;
+    justify-content:space-evenly
+}
+.boxes .box{
+    background-color: #FFF;
+    height: 500px;
+    width: 320px;
+    border-radius: 10px;
+}
+.boxes .m-top{
+    margin-top: 30px;
+}
+.boxes .m-topx{
+    margin-top: 60px;
+}
+.boxes .box p{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 200;
+    position: relative;
+}
+.boxes .box p span{
+    position: absolute;
+    left: 100px;
+    top: 13px;
+    font-size: 35px;
+}
+.boxes .box .name{
+    padding: 10px 15px;
+    width: 140px;
+    font-size: 21px;
+    margin: 25px 0 30px -10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #FFF;
+    position: relative;
+}
+.boxes .box .green1::before{
+    content: '';
+    border: 7px solid #f00;
+    border-color: #16AB8F transparent transparent transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 41px;
+    left: 3px;
+}
+.boxes .box .yellow1::before{
+    content: '';
+    border: 7px solid #f00;
+    border-color: #EFCB53 transparent transparent transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 41px;
+    left: 3px;
+}
+.boxes .box .blue1::before{
+    content: '';
+    border: 7px solid #f00;
+    border-color: #555FAE transparent transparent transparent;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 41px;
+    left: 3px;
+}
+.boxes .box ul{
+    list-style: none;
+    text-align: center;
+}
+.boxes .box ul li{
+    margin-top: 20px;
+}
+
+.boxes .box .btn{
+    display: flex;
+    margin: 50px auto;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.green{
+    background-color: #13C8A6;
+}
+.yellow{
+    background-color: #EFCB53;
+}
+.blue{
+    background-color: #555FAE;
+}

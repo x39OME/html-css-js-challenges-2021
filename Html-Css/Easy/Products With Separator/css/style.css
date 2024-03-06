@@ -1,0 +1,138 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 20px auto;
+}
+/**/
+.boxes{
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    position: relative;
+    background-color: #20BFA9;
+    position: relative;
+}
+.box{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.boxes .box .price{
+    font-weight: 600;
+    font-size: 19px;
+    color: #000;
+    background-color: #fff;
+    height: 250px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    z-index: 3;
+    top: 20px;
+    border-radius: 10px;
+    box-shadow:1px 1px 8px #888;
+}
+.boxes .box .price span{
+    line-height: 90px;
+}
+.boxes .box .price ul{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -25px;
+    list-style: none;
+}
+.boxes .box .price ul li{
+    position: relative;
+}
+
+.boxes .box .price ul li::before {
+    content: "• ";
+    color: red;
+    font-size: 30px;
+    line-height: 30px;
+}
+.boxes .box .price button{
+    background-color: #F73859;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #F73859;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.boxes .box .title1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 45px;
+    color: #FFF;
+    background-color: #282828;
+    text-align: center;
+    width: 341px;
+    height: 125px;
+    position: absolute;
+    left: 122px;
+    top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+}
+.boxes .box .title1 span{
+    color: #3C732E;
+}
+.boxes .box .title2{
+    font-weight: bold;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 45px;
+    background-color: #282828;
+    text-align: center;
+    width: 341px;
+    height: 125px;
+    position: absolute;
+    right: 122px;
+    top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.boxes .box .title2 span{
+    color: #3C732E;
+}
+.boxes::before{
+    content: 'OR';
+    display: block;
+    background-color: #fff;
+    font-weight: 700;
+    color: #20BFA9;
+    text-align: center;
+    border:1px solid #20BFA9;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    z-index: 99;
+    position: absolute;
+    right: 50%;
+    top:210px;
+    transform: translateX(50%);
+}
+.boxes::after{
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 1px;
+    height: 350px;
+    line-height: 50px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
