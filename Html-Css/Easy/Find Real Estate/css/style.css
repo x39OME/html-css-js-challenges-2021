@@ -1,0 +1,110 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+/* End Our Freamwork */
+
+form{
+    background-color: #000000;
+    position: relative;
+}
+form .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+form input{
+    margin-left: 15px;
+    width: 150px;
+}
+form input[type="text"]{
+    padding:0px 0px 0px 20px;
+}
+form input[placeholder="Min Price"],
+form input[placeholder="Max Price"]{
+    padding:0px 0px 0px 50px;
+}
+form .box-md{
+    flex-grow: 1;
+}
+form div .box{
+    flex-grow: 1;
+}
+form .box-sm{
+    flex-shrink: 1;
+}
+form .container::after{
+    content: '$';
+    display: block;
+    position: absolute;
+    top: 31px;
+    right: 305px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #F7F7F7;
+    text-align: center;
+    border-right: 1px solid #CCC;
+    border-radius: 3px;
+}
+form .container::before{
+    content: '$';
+    display: block;
+    position: absolute;
+    bottom: 31px;
+    right:545px ;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #F7F7F7;
+    text-align: center;
+    border-right: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+form .container .icon{
+    position: absolute;
+    color: #999;
+    left: 385px;
+    bottom: 40px;
+    cursor: pointer;
+}
+form .container .icon2{
+    position: absolute;
+    color: #999;
+    left: 550px;
+    bottom: 40px;
+    cursor: pointer;
+}
+::placeholder{
+    color: #777;
+}
+form button{
+    background-color: #0EAAA6;
+    color: white;
+    padding:8px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.text{
+    background-color: #0EAAA6;
+    color: white;
+    text-align: center;
+}
+.text h1{
+    font-weight: 400;
+}
+.text .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

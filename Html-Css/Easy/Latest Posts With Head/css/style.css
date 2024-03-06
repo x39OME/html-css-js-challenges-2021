@@ -1,0 +1,100 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #fff;
+}
+
+.container{
+    width: 1050px;
+    margin: 20px auto;
+}
+
+.container .menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.container .menu::before{
+    content: '';
+    width: 1080px;
+    height: 3px;
+    background-color: #DFDFDF;
+    position: absolute;
+    top: 44px;
+    right: -155px
+}
+.container .menu .title .orn{
+    padding: 15px 15px;
+    color:#fff;
+    background-color: #FF5722;
+    position: relative;
+    text-transform: uppercase;
+}
+.container .menu .title .orn::before{
+    content: '';
+    width: 190px;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(255, 37, 24, .5);
+    position: absolute;
+    right: 131px;
+    top: 0;
+}
+.container .menu .view{
+    position: relative;
+    top: 14px;
+}
+.container .menu .view .white{
+    text-transform: uppercase;
+    padding: 13px 15px;
+    background-color: #DFDFDF;
+    color: #000;
+    margin-right: 20px;
+}
+.container .menu .view i{
+    padding: 18px 15px 13px;
+    background-color: #FF5722;
+    color: #000;
+    margin-right: 20px;
+    position: absolute;
+    right: -43px;
+    top: -13px;
+}
+
+.container .posts .post{
+    display: flex;
+    justify-content: start;
+    background-color:#EEEEEE;
+    padding:15px 30px 15px 10px;
+    margin-top: 20px;
+}
+
+.posts .post .date{
+    color: #6C6E72;
+    text-align: center;
+    font-weight: 600;
+    margin: 35px 10px 0 0px;
+}
+.posts .post .text h3{
+    color: #3a3a3a;
+    font-weight: 200;
+    font-size: 30px;
+    margin:22px 0 5px 30px;
+}
+.posts .post .text ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.posts .post .text ul li{
+    margin-left: 10px;
+    color: #6C6E72;
+}

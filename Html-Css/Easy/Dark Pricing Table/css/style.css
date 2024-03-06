@@ -1,0 +1,72 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1100px;
+    margin: 50px auto;
+}
+
+.plans .our-plan{
+    color: #FFF;
+    background-color: #242424;
+    border-right: 1px solid #485552;
+    padding-bottom: 25px;
+    transition: .2s;
+}
+.plans .our-plan:hover{
+    background-color: #03A9F4;
+    color: #FFF;
+    transform: scaleY(1.07);
+}
+.plans .our-plan:hover ul li{
+    color: #fff;
+}
+.plans .our-plan:hover ul .gray{
+    background-color: #03A9F4;
+}
+.plans .container{
+    display: flex;
+}
+.plans .our-plan h1{
+    text-align: center;
+    padding: 10px 0;
+}
+.plans .our-plan p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 23px;
+}
+.plans .our-plan p .top{
+    margin-bottom: 5px;
+}
+.plans .our-plan p .sm{
+    font-size: 13px;
+}
+.plans .our-plan ul{
+    list-style: none;
+    width: 280px;
+}
+.plans .our-plan ul li{
+    color: #485552;
+    border-top: 1px solid #485552;
+    padding: 20px 80px;
+}
+.plans .our-plan ul .gray{
+    background-color: #2A2A2A;
+    transition: .2s;
+}
+.plans .our-plan button{
+    background-color: transparent;
+    padding: 10px 35px;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 40px;
+    border: 1px solid #485552;
+    transition: .2s;
+}
+.plans .our-plan button:hover{
+    background-color: #485552;
+}

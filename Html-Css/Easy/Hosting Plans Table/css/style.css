@@ -1,0 +1,57 @@
+/* Star Our Freamwork */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    text-align: center;
+    line-height: 50px;
+}
+body{
+    background-color: #fff;
+}
+
+/* End Our Freamwork */
+
+.container table{
+    margin: 50px auto;
+    background-color: #FAFAFA;
+}
+table tbody tr th{
+    background-color: #FC5103;
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding: 10px 80px;
+}
+table tbody tr td{
+    border-right: 1px solid #A9A8AF;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+.price td{
+    color: #A9A8AF;
+}
+.price td i {
+    margin-top: 10px;
+    color: #000;
+}
+.price td span{
+    font-size: 40px !important;
+    color: #FC5103 !important
+}
+button{
+    background-color: #333;
+    border: none;
+    width: 85px;
+    line-height: 35px;
+    border-radius: 5px;
+    color: #FFF;
+    transition: .5s;
+}
+button:hover{
+    background-color: #FC5103;
+    color: #fff;
+}
