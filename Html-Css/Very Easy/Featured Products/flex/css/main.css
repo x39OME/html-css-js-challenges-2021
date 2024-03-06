@@ -1,0 +1,104 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  width: 1170px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div h3{
+  padding: 10px 5px;
+  background-color: #336C7C;
+  color: white;
+  width: 200px;
+  text-align: center;
+}
+
+.main .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main .prod{
+  border: 5px solid #DDD;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+}
+.main .prod .text p{
+  color: #777;
+  font-size: 18px;
+}
+.main .prod .text .price{
+  color: #457B8F;
+  font-weight: bold;
+}
+.main .prod .price-line{
+  text-decoration: line-through;
+  color: #777;
+}
+.main .prod .sale{
+  color: #FE4D02 !important;
+  font-weight: bold;
+}
+
+.main .prod .price::before{
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #DDD;
+  position: relative;
+  bottom: -12px;
+  left: 10px;
+}
+
+.main .prod .price::after{
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #DDD;
+  position: relative;
+  top: -12px;
+  left: 140px;
+}
+
+.main .prod .discount{
+  line-height: 30px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  border: 5px solid #E44502;
+  border-radius: 50%;
+  background-color: #E44502;
+  color: white;
+}
+
+.main .prod .price-line::before{
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #DDD;
+  position: relative;
+  bottom: -12px;
+  left: 10px;
+}
+
+.main .prod .price-line::after{
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #DDD;
+  position: relative;
+  top: -12px;
+  left: 140px;
+}

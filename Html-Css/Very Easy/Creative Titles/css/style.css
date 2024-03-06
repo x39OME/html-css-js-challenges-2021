@@ -1,0 +1,165 @@
+
+/* Freamwork */
+
+h1{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+body h3{
+    padding-bottom: 20px
+}
+div{
+    margin-left: 50px;
+}
+div h3{
+    position: relative;
+    margin-left: 20px;
+}
+
+:root{
+    --blue:#2C6CCF;
+    --red:#CF2C2C;
+    --green:#309E0E;
+    --orange:#CD661A;
+    --gray:#CCCCCC;
+}
+
+/* Colors */
+.blue{color:#2C6CCF}
+.red{color:#CF2C2C}
+.green{color:#309E0E}
+.orange{color:#CD661A}
+
+
+
+/* Colors After */
+.blue::after{
+    border-image: linear-gradient(90deg, #2C6CCF 50%, #CCCCCC 50%);
+    border-image-slice: 1;
+}
+.red::after{
+    border-image: linear-gradient(90deg, #CF2C2C 50%, #CCCCCC 50%);
+    border-image-slice: 1;
+}
+.green::after{
+    border-image: linear-gradient(90deg, #309E0E 50%, #CCCCCC 50%);
+    border-image-slice: 1;
+}
+.orange::after{
+    border-image: linear-gradient(90deg, #CD661A 50%, #CCCCCC 50%);
+    border-image-slice: 1;
+}
+
+.blue::before{
+    background-color:var(--blue);
+}
+.red::before{
+    background-color:var(--red);
+}
+.green::before{
+    background-color:var(--green);
+}
+.orange::before{
+    background-color:var(--orange);
+}
+
+/* Freamwork */
+
+h3::after{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 240px;
+    border-bottom: 3px solid;
+    margin-top:5px
+}
+
+/* Circle */
+div .circle::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: -12px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+/* Circle */
+/* Box */
+div .box::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: -12px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+}
+/* Box */
+
+
+/*Triangle*/
+/*Triangle*/
+
+/* Triangle Up */
+div .triangle-up::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: 22px;
+    left: 0px;
+}
+div .triangle-up-blue::before{
+    border: 7px solid;
+    border-color: #fff #fff var(--blue) #fff;
+}
+
+div .triangle-up-red::before{
+    border: 7px solid;
+    border-color: #fff #fff var(--red) #fff;
+}
+div .triangle-up-green::before{
+    border: 7px solid;
+    border-color: #fff #fff var(--green) #fff;
+}
+div .triangle-up-orange::before{
+    border: 7px solid;
+    border-color: #fff #fff var(--orange) #fff;
+}
+
+/* Triangle Up */
+
+/* Triangle Down */
+
+div .triangle-down::before{
+    content: '';
+    display: flex;
+    position: absolute;
+    top: 36px;
+    left: -1px;
+}
+
+div .triangle-down-blue::before{
+    border: 8px solid;
+    border-color: var(--blue) #fff #fff #fff;
+}
+
+div .triangle-down-red::before{
+    border: 8px solid;
+    border-color:var(--red) #fff #fff #fff;
+}
+div .triangle-down-green::before{
+    border: 8px solid;
+    border-color:var(--green) #fff #fff #fff;
+}
+div .triangle-down-orange::before{
+    border: 8px solid;
+    border-color:var(--orange) #fff #fff #fff;
+}
+
+/* Triangle Down */
